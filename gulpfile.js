@@ -32,7 +32,7 @@ gulp.task("init",function(){
     });
   });
   
-  gulp.task('gitsend',['init','add','commit','push']);
+  gulp.task('gitsend',['commit','push']);
    
   //End of git 
   
