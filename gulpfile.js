@@ -21,14 +21,14 @@ gulp.task("init",function(){
   
     gulp.task('push', function(){
       git.push('master', function (err) {
-        //    if (err) throw err; 
+              if (err) throw err; 
          }); 
   });
   
   gulp.task('clone', function(){
     git.clone('https://github.com/munnaec/TestGit', 
     function (err) {
-     // console.log(err);
+     console.log(err);
 
     });
   });
