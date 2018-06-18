@@ -21,7 +21,7 @@ gulp.task("init",function(){
   
     gulp.task('push', function(){
       git.push('master', function (err) {
-              if (err) throw err; 
+             // if (err) throw err; 
          }); 
   });
   
