@@ -1,0 +1,23 @@
+{
+  "name": "testgit",
+  "version": "1.0.0",
+  "description": "Testing For Git and server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munnaec/TestGit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/munnaec/TestGit/issues"
+  },
+  "homepage": "https://github.com/munnaec/TestGit#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-git": "^2.7.0"
+  }
+}

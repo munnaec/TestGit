@@ -1,0 +1,22 @@
+<mvc:View controllerName="Custom.controlCustomTable.controller.Main" xmlns:l="sap.ui.layout" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:CustomControl="Custom.controlCustomTable.Custom">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<l:VerticalLayout width="100%">
+						<l:content>
+							<Label text="Extension Control"/>
+							<!--<CustomControl:CustomSelect width="50%" newValueCreated="handleNewValue" items="{/}">
+								<core:Item key="{CountryId}" text="{Name}"/>
+							</CustomControl:CustomSelect>-->
+							<List headerText="Countries" items="{/}">
+								<StandardListItem title="{Name}"/>
+							</List>
+						</l:content>
+					</l:VerticalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
