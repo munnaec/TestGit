@@ -2,10 +2,10 @@ const gulp=require("gulp");
 const git = require("gulp-git");//for git 
 
 //Git hub code
-/*gulp.task("init",function(){
-    console.log(argv.comment);
+gulp.task("init",function(){
+  //  console.log(argv.comment);
   });
-  */
+  
   gulp.task('add', function(){
       return gulp.src('https://github.com/munnaec/TestGit')    
       .pipe(
@@ -28,7 +28,7 @@ const git = require("gulp-git");//for git
     git.clone('https://github.com/munnaec/TestGit', 
     function (err) {
       console.log(err);
-    //  if (err) throw err;
+
     });
   });
   
